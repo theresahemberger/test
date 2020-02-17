@@ -6,36 +6,44 @@
     <meta name="Author" content="Theresa Hemberger">
     <meta name="Description" content="My homework resume assignment">
     <meta name="Keywords" content="HTML, JS, CSS, Resume">
+    <link rel="stylesheet" href="css/resumeStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
   </head>
   <!--this is the body of my resume-->
   <body>
-    <!--this is the header of my resume-->
-    <header>
-      <h1>Theresa Hemberger</h1>
-        <!--this is an address tag-->
-        <address>
-          <section>
-            <h1>Contact</h1>
-              <ul>
-                <li>Phone: 222-222-2222</li>
-                <li>Email: theresahemberger@example.com</li>
-              </ul>
-            <h1>Address</h1>
-              <p>1231 Theo Dickinson Drive, Coral Gables, FL. 33146</p>
-            </address>
-          </section>
-    </header>
 
-    <article>
-      <h1>Profile</h1>
-      <img src="Image/IMG_4884.jpg" alt="Me">
-      <p>I am a freshman at the <strong>University of Miami</strong>. I live in Lawrenceville, New Jersey however I now consider the Coral Gables area my home. I am originally from Germany but moved to the United States ten years ago with my parents and older sister. I am in the school of communications and although I am currently undecided, I plan on majoring in media management and possibly double major. My favorite movie is <em>Mama Mia</em> and my favorite song is <em>Fast Car</em> by Tracy Chapman</p>
-          <ul>
-      <!--these are links-->
-            <li>    <a href="https://welcome.miami.edu">University of Miami</a>   </li>
-          <li>  <a href="https://com.miami.edu">School of Communications</a>  </li>
-          </ul>
-    </article>
+    <div class="box">
+      <!--this is the header of my resume-->
+      <header>
+        <h1>Theresa Hemberger</h1>
+          <!--this is an address tag-->
+          <address>
+             <p class="titles">Contact</p>
+                <ul>
+                  <li>Phone: 222-222-2222</li>
+                  <li>Email: theresahemberger@example.com</li>
+                </ul>
+              <p class="titles">Address:</p>
+                <p>1231 Theo Dickinson Drive, Coral Gables, FL. 33146</p>
+              </address>
+
+      </header>
+    </div>
+
+
+    <div class="box">
+      <article>
+        <h1>Profile</h1>
+        <img  src="Image/IMG_4884.jpg" alt="Me">
+        <p>I am a freshman at the <strong>University of Miami</strong>. I live in Lawrenceville, New Jersey however I now consider the Coral Gables area my home. I am originally from Germany but moved to the United States ten years ago with my parents and older sister. I am in the school of communications and although I am currently undecided, I plan on majoring in media management and possibly double major. My favorite movie is <em>Mama Mia</em> and my favorite song is <em>Fast Car</em> by Tracy Chapman</p>
+            <ul>
+        <!--these are links-->
+              <li>    <a href="https://welcome.miami.edu">University of Miami</a>   </li>
+            <li>  <a href="https://com.miami.edu">School of Communications</a>  </li>
+            </ul>
+      </article>
+    </div>
+
       <aside>
         <!--this is an ordered list-->
         <h1>Work experience:</h1>
@@ -49,22 +57,22 @@
 <table>
   <tr>
     <th>Languages</th>
-
     <th>Places I've lived:</th>
-
     <th>Additional skills</th>
-    <tr>
+  </tr>
+  
+  <tr>
       <td>2: <p>Englsih</p> <p>German</p></td>
       <td>Germany <p>England</p> <p>USA</p></td>
       <td>Photography<p>Work well with people</p><p>Experience working with children</p></td>
     </tr>
-  </tr>
+
 </table>
 <!--this creates side bars-->
 <aside>
+    <h2>Hobbies:</h2>
   <!--this is an unordered list-->
   <ul>
-    <h1>Hobbies:</h1>
     <li>Baking</li>
     <li>Going to the beach</li>
     <li>Running</li>

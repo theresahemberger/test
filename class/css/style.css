@@ -1,0 +1,77 @@
+body{
+  background-color: gray;
+}
+
+
+
+h1
+{
+  color: red;
+  font-family: 'Inconsolata';
+}
+.container
+{
+  margin: auto;
+  padding: 20px;
+  background-color: #fcd9dd;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+.container h1 {
+  font-size: 4em
+}
+.sidebar {
+  float: left;
+  margin: auto;
+  padding: 20px;
+  background-color: #fcd9dd;
+  width: 10%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+
+.navigation{
+display: table;
+margin: 0 auto;
+margin-top: 30px;
+margin-bottom: 80px;
+
+
+}
+
+.horizontaLine {
+
+  padding-top: 20px;
+
+}
+
+.horizontaLine li {
+display: inline;
+margin: 40px;
+padding: 20px 60px 20px 60px;
+background-color: rgb(241, 241, 241);
+width: 10%;
+
+}
+
+.horizontaLine li a {
+  color: gray;
+  text-decoration: none;
+  font-family: sans-serif;
+
+}
+
+.horizontaLine li a:hover {
+  color: red;
+
+
+}
+
+
+/* this is an id */
+#monkey {
+  background-color: pink;
+  width: 400px;
+}

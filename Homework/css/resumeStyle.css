@@ -1,0 +1,35 @@
+body{
+  background-color: #ffe8fe;
+}
+h1
+{
+  color: rgb(255, 255, 255);
+  font-family: 'Cinzel';
+}
+
+.box
+{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: rgb(236, 185, 214);
+
+}
+
+.box img {
+  display: block;
+  margin: auto;
+  border: 3px double #ffe8fe;
+}
+
+p
+{
+  font-family: sans-serif;
+}
+
+.titles
+{
+  font-size: 21px;
+  
+}
