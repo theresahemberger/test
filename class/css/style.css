@@ -24,9 +24,9 @@ h1
 .sidebar {
   float: left;
   margin: auto;
-  padding: 0px;
+  padding: 20px;
   background-color: #fcd9dd;
-  width: 250px;
+  width: 10%;
   box-shadow: 6px 7px 5px 2px #ededed;
   border-radius: 20px;
 }
@@ -37,6 +37,7 @@ display: table;
 margin: 0 auto;
 margin-top: 30px;
 margin-bottom: 80px;
+
 
 }
 
