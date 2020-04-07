@@ -99,19 +99,14 @@ nav ul
 {
   width: 80%;
   height: 100%;
-  margin: 0 auto;
+  margin: auto;
   padding: 0;
   align-content: center;
   list-style-type: none;
   font-size: 0;
 }
 
-nav ul li
-{
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
+
 
 nav ul li a
 {
