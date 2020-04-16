@@ -1,4 +1,5 @@
 $(document).ready(function(){
+$("#pagepiling").pagepiling();
 
   $(".content div:first-child").hide();
   $(".content div:nth-child(2)").hide();
@@ -32,5 +33,6 @@ $(document).ready(function(){
     $(".content div:nth-child(3)").show();
   });
 
+  $(".slider").simpleSlider();
 
 });
