@@ -1,0 +1,119 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(199, 171, 163);
+  font-family: 'Italianno', cursive;
+}
+.title
+{
+  text-align: center;
+  font-size: 120px;
+  color: white;
+}
+.horizontalMenu a
+{
+  padding: 40px;
+}
+
+.about
+{
+text-align: left;
+font-size: 50px;
+margin-left: 50px;
+}
+
+.about a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.about a:hover
+{
+  color: rgb(249, 223, 194);
+}
+
+.media
+{
+text-align: right;
+margin-right: 50px;
+}
+.icons
+{
+  width: 100%;
+  margin:0 auto;
+  font-size: 0;
+  padding-bottom: 30px;
+}
+.icons li
+{
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+.icons li a
+{
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  font-size: 16px;
+}
+.icons li a i
+{
+  width: 20%;
+  padding: 20px;
+  color: white;
+  border: 1px solid white;
+  transition: border-radius .3s, border-color .3s, color .3s, transform .3s ease-out;
+}
+
+.icons li:first-child:hover i
+{
+  color: #23b4e9;
+  border-radius: 100%;
+  border-color: #23b4e9;
+  transform: translateY(-20px)
+}
+
+.icons li:nth-child(2):hover i
+{
+  color: rgb(241, 16, 16);
+  border-radius: 100%;
+  border-color:rgb(241, 16, 16);
+  transform: translateY(-20px)
+}
+
+.horizontalMenu
+{
+  background-color: rgb(249, 223, 194);
+  text-align: center;
+}
+.horizontalMenu a
+{
+  display: inline;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.horizontalMenu a:hover
+{
+  color: rgb(199, 171, 163);
+}
+
+.coverImg img
+{
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 270px;
+}
+
+footer
+{
+background-color: rgb(249, 223, 194);
+color: white;
+text-align: center;
+font-size: 35px;
+}

@@ -1,0 +1,127 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(199, 171, 163);
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+hr
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+header h1
+{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+header h2
+{
+  margin-left: 30px;
+}
+
+.trends h1
+{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.trendImg
+{
+  margin-left: 250px;
+}
+
+
+
+.trends ul li a
+{
+  text-decoration: none;
+  color: white;
+
+}
+
+.trends ul li a:hover
+{
+  color: rgb(249, 223, 194);
+}
+
+.trends ul
+{
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.trends h2
+{
+  color: white;
+}
+
+.outfits
+{
+  width: 60%;
+  padding: 15px;
+  margin-left: 250px;
+}
+
+.outfits h1
+{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway'
+}
+
+.outfits p
+{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.outfits h2
+{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.outfits li
+{
+  color: white;
+  font-size: 20px;
+}
+
+.accessories h1
+{
+  color: white;
+  text-align: center;
+}
+
+.accessories p
+{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.imgA
+{
+  margin-left: 125px;
+  padding-bottom: 160px;
+}
+
+footer
+{
+background-color: rgb(249, 223, 194);
+color: white;
+text-align: center;
+font-size: 20px;
+padding-bottom: 15px;
+padding-top: 15px;
+}

@@ -1,0 +1,114 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(199, 171, 163);
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+header
+{
+  margin-left: 30px;
+}
+
+.aboutMe
+{
+  border-right: solid 1px;
+}
+.aboutMe h1
+{
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutMe div
+{
+  text-align: center;
+  padding-right: 10px;
+  font-size:20px;
+}
+
+
+
+.headGrid
+{
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns:1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  color: white;
+}
+
+.images
+{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100%;
+  width: 50%;
+  align-items: center;
+  grid-column-gap: 20px;
+}
+
+
+.box
+{
+  position: relative;
+  display: inline-block;
+}
+
+.box .why
+{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: .5%;
+  text-align: center;
+  width: 80%;
+}
+.why h1
+{
+  background-color: rgb(199, 171, 163);
+  padding: 20px;
+}
+
+.why p
+{
+  background-color: rgb(199, 171, 163);
+  padding: 30px;
+}
+.box img
+{
+  margin-left: 25px;
+}
+.why h1
+{
+  font-family: 'Italianno', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.why p
+{
+  height: 15%;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer
+{
+background-color: rgb(249, 223, 194);
+color: white;
+text-align: center;
+font-size: 25px;
+}
